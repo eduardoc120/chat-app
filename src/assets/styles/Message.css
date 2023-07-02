@@ -1,0 +1,25 @@
+.message-container {
+    max-width: 70%;
+    margin: 25px 0 0 0;
+    padding: .5em 1em;
+    width: fit-content;
+}
+
+.message-container p {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.enviado {
+    background: #1A8D55;
+    color: #ffff;
+    border-radius: 1em 1em 0 1em;
+    align-self: flex-end;
+}
+
+.recibido {
+    background: #fff;
+    color: #121212;
+    border-radius: 1em 1em 1em 0;
+    align-self: flex-start;
+}

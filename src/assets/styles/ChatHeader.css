@@ -1,0 +1,82 @@
+.Chat-header-container {
+    background: #20BD71;
+    color: #fff;
+    height: 140px;
+    position: relative;
+}
+
+.Chat-header-container h4 {
+    font-size: 1.4em;
+}
+
+.user-container, .conversation-contact-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.user-container {
+    right: 90px;
+    top: 20px;
+    cursor: pointer;
+}
+.conversation-contact-container {
+    top: 75px;
+    left: 350px;
+}
+
+.three-points-icon {
+    font-size: 50px;
+    font-weight: 800;
+    transform: rotate(90deg);
+}
+
+.chat-header-icon {
+    position: fixed;
+    right: 115px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.contact-options-popup {
+    position: fixed;
+    color: #fff;
+    background: #242424;
+    font-size: 1em;
+    font-weight: normal;
+    right: 105px;
+    top: 115px;
+    min-width: 150px;
+    height: 120px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 50%);
+    border-radius: 5px;
+    display: none;
+    transition: all .5s;
+}
+
+.contact-options-popup div {
+    height: 40px;
+    transition: all .3s;
+    padding: 10px 25px 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.contact-options-popup .first {
+    border-radius: 5px 5px 0 0;
+}
+
+.contact-options-popup .last {
+    border-radius: 0 0 5px 5px;
+}
+
+.contact-options-popup div:hover {
+    background: #20BD71;
+}
+
+.user-image {
+    background: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+}

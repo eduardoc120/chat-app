@@ -1,0 +1,100 @@
+.left-arrow-container {
+    position: relative;
+    left: 25px;
+    top: 25px;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.left-arrow-container img {
+    height: 25px;
+}
+
+.Contacts-menu-search-bar {
+    margin-top: 25px;
+}
+
+.add-contact-container {
+    font-size: 1.1em;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 25px;
+    color: #20bd71;
+}
+
+.add-contact-container > .centrado {
+    cursor: pointer;
+}
+
+.Contacts-info p {
+    color: #ccc;
+}
+
+.Contacts-info p:last-child {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.Contact-plus-icon {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.Contacts-container {
+    margin-top: 30px;
+}
+
+.new-contact-title {
+    font-weight: 400;
+    margin: 35px 0 10px 0;
+}
+
+.new-contact-input {
+    width: 80%;
+    margin-top: 25px;
+    font-size: 1.1em;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #636363;
+    border-radius: 20px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    transition: all .5s;
+}
+
+.new-contact-input:focus {
+    outline: none;
+    border-color: #ccc;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+.new-contact-button {
+    margin-top: 35px;
+    font-size: 1.1em;
+    background: #20bd71;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 70px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.new-contact-button:hover {
+    background: #22cb79;
+}
+
+.new-contact-result-title {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.result-icon {
+    width: 100px;
+    margin-top: 50px;
+}

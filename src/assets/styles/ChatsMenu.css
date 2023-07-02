@@ -1,0 +1,83 @@
+.create-new-chat-container {
+    border: 2px solid #636363;
+    width: 80%;
+    height: fit-content;
+    margin-top: 20px;
+    padding: 7px 0;
+    border-radius: 15px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.create-new-chat-container:hover {
+    border-color: #909090;
+}
+
+.plus-icon {
+    width: 40px;
+    height: 40px;
+    background: #636363;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 17px 0 -40px;
+    color: #20BD71;
+}
+
+.chats-options {
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.chats-options h4, .create-new-chat-container h4 {
+    font-weight: 600;
+}
+
+.chats-menu-icon {
+    position: absolute;
+    cursor: pointer;
+    transition: all .5s;
+    right: 38px;
+}
+
+.chats-container {
+    width: 100%;
+    margin-top: 35px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.chats-container::-webkit-scrollbar {
+    width: 7px;
+}
+
+.chats-container::-webkit-scrollbar-thumb {
+    background: #20BD71;
+    border-radius: 7px;
+}
+
+.chats-options-popup {
+    position: fixed;
+    color: #fff;
+    background: #242424;
+    font-size: 1em;
+    font-weight: normal;
+    left: 245px;
+    top: 185px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 50%);
+    border-radius: 5px;
+    display: none;
+    transition: all .5s;
+}
+
+.chats-options-popup div {
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.chats-options-popup div:hover {
+    background: #20BD71;
+}
