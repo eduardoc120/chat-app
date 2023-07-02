@@ -1,3 +1,7 @@
+# Chat app
+
+chat app have different routes like login, signup and home, you can create different accounts and chat between them, in this proyect I use redux, trying to learn.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
